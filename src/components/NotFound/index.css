@@ -1,0 +1,17 @@
+.not-found-heading {
+  font-size: 40px;
+  color: black;
+}
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 900px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+}
+@media all and (max-width: 767px) {
+  .not-found {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}

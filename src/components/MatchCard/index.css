@@ -1,0 +1,34 @@
+.list-item{
+    background-color: #0f172a;
+    width: 230px;
+    height: 360px;
+    padding: 20px 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card-logo{
+    width: 130px;
+    min-height: 120px;
+}
+.date{
+    font-size: 20px;
+    margin: 5px;
+}
+.compp{
+    text-align: center;
+}
+.result{
+    font-size: 15px;
+    text-align: center;
+}
+.win{
+    color: #18ed66;
+}
+.lose{
+    color:#e31a1a;
+}

@@ -1,0 +1,40 @@
+.card-item {
+  list-style-type: none;
+  display: flex;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 8px 10px;
+  padding-right: 20px;
+  height: 120px;
+  align-items: center;
+  margin-top: 20px;
+}
+.team-logo {
+  width: 80px;
+}
+.name {
+  color: white;
+  font-size: 22px;
+  max-width: 210px;
+  text-align: center;
+}
+.link {
+  width: 40%;
+  height: 120px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .name {
+    font-size: 17px;
+  }
+  .team-logo {
+    width: 60px;
+  }
+  .card-item {
+    width: 48%;
+  }
+}

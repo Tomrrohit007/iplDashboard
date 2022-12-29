@@ -1,0 +1,28 @@
+.team-matches-cont {
+  background-color: #d91c1f;
+  min-height: 100vh;
+  max-width: 900px;
+  color: white;
+  font-family: Bree Serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.latest-match {
+  font-weight: 700;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+.banner {
+  max-width: 820px;
+}
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+}
